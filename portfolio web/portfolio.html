@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UFT-8"/>
+    <title>Portfolio</title>
+
+<style>
+*{
+    font-family: "Inter", sans-serif;
+}
+
+
+
+
+
+
+
+.header #background-video {
+   
+    height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+ contain: 100px 100px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+    .nav-links ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.8888888888888888rem;
+        letter-spacing: 0.08333333333333333rem;
+        font-weight: 300;
+    }
+
+    .nav-links ul li::after{
+        content:'';
+        width: 0%;
+        height: 1px;
+        background: #fff;
+        opacity: 0.8;
+        display: block;
+        margin: auto;
+        transition: 0.4s;
+    }
+    .nav-links ul li:hover::after{
+        width: 100%;
+    }
+
+    .logo{
+        flex: 8;
+        text-align: left;
+    
+    }
+    .logo a{
+       
+        padding: 8px 12px;
+        position: absolute;
+    }
+    .logo a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .logo a {
+        color: #ffffff;
+    }
+
+  .logo a {
+        font-size: 0.8888888888888888rem;
+    }
+
+    .logo a {
+        text-transform: uppercase;
+    }
+
+    .logo a {
+        letter-spacing: 0.08333333333333333rem;
+    }
+
+    .smain-text p{
+        position: absolute;
+        top: 37%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+
+    }
+
+    .smain-text p{
+        font-family: 'Karla', sans-serif;
+        font-size: 1.23rem;
+        letter-spacing: 0.166667rem; 
+        color: #ffffff;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+    .main-text p{
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        font-size: 5.55556rem;
+        letter-spacing: 0rem;
+       font-family: "europa", sans-serif;
+       font-weight: 700;
+       font-style: normal;
+       }
+
+       .tmain-text{
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        font-size: 5.55556rem;
+        font-size: 1rem;
+        letter-spacing: 0rem;
+        font-family: "europa", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        
+
+       }
+
+       .left{
+        padding: 0;   
+        position: absolute;
+           color: #fff;
+       }
+
+</style>
+
+
+  
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;600;900&display=swap" rel="stylesheet">
+
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/stw1zzg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+   
+    <section>
+    <div class="header">
+
+    <video id="background-video" autoplay loop muted poster="background2.png">
+        <source src="background.mp4" type="video/mp4">
+      </video>
+    
+   
+    <nav>
+        <div class="logo"> <a href=""> name surname </a></div>
+    </nav>
+
+    <nav>
+       
+    <div class="nav-links"> 
+        <ul>
+            <li><a href=""> Work</a></li>
+            <li><a href=""> Experience</a></li>
+            <li><a href=""> Contact</a></li>
+            <li><a href=""> Work</a></li>
+        </ul>
+    </div>
+    </nav>
+    
+    <div class="smain-text">
+        <p> WE EXPLORE OUR CITY</p>
+    </div>
+
+
+    <div class="main-text">
+
+    <p >Seoul Trip Walk </p>
+   </div>
+</div>
+
+<div class="tmain-text">
+    <p> Umbrela Is My Fave</p>
+    <p> I Am Here For Aesthetic</p> 
+</div>
+</div>
+</section>
+
+<section>
+    
+    <div class="left">
+    <p> audha </p>
+    </div>
+</section>
+
+
+    
+ 
+<footer>
+    
+</footer>
+
+
+
+
+</body>
+</html>
